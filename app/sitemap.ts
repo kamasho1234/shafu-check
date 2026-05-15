@@ -1,7 +1,7 @@
-import type { MetadataRoute } from 'next';
+﻿import type { MetadataRoute } from 'next';
 import { industries } from '@/lib/data';
 
-const BASE_URL = 'https://shafu-check.net';
+const BASE_URL = 'https://shafu.taishoku-todoke.net';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const industryPages = industries.map(i => ({
@@ -17,3 +17,4 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/about`, changeFrequency: 'yearly', priority: 0.3 },
   ];
 }
+

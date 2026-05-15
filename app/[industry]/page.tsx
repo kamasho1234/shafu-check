@@ -23,8 +23,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title,
     description,
-    alternates: { canonical: `https://shafu-check.net/${slug}/` },
-    openGraph: { title, description, url: `https://shafu-check.net/${slug}/` },
+    alternates: { canonical: `https://shafu.taishoku-todoke.net/${slug}/` },
+    openGraph: { title, description, url: `https://shafu.taishoku-todoke.net/${slug}/` },
     twitter: { card: 'summary_large_image', title, description },
   };
 }
@@ -63,8 +63,8 @@ export default async function IndustryPage({ params }: Props) {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
     itemListElement: [
-      { '@type': 'ListItem', position: 1, name: '社風チェック', item: 'https://shafu-check.net' },
-      { '@type': 'ListItem', position: 2, name: industry.label, item: `https://shafu-check.net/${slug}/` },
+      { '@type': 'ListItem', position: 1, name: '社風チェック', item: 'https://shafu.taishoku-todoke.net' },
+      { '@type': 'ListItem', position: 2, name: industry.label, item: `https://shafu.taishoku-todoke.net/${slug}/` },
     ],
   };
 

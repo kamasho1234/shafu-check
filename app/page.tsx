@@ -5,11 +5,11 @@ import { industries, companies } from '@/lib/data';
 export const metadata: Metadata = {
   title: '社風チェック - 企業の採用SNSをまとめて比較',
   description: '転職・就活前に企業の雰囲気を確認。IT・医療・介護・飲食・小売など業界別に企業の公式採用SNS（X・Instagram・TikTok・YouTube）をまとめました。',
-  alternates: { canonical: 'https://shafu-check.net/' },
+  alternates: { canonical: 'https://shafu.taishoku-todoke.net/' },
   openGraph: {
     title: '社風チェック - 企業の採用SNSをまとめて比較',
     description: '転職・就活前に企業の雰囲気を確認。業界別に企業の採用SNSをまとめました。',
-    url: 'https://shafu-check.net/',
+    url: 'https://shafu.taishoku-todoke.net/',
   },
 };
 
@@ -17,16 +17,8 @@ const webAppJsonLd = {
   '@context': 'https://schema.org',
   '@type': 'WebSite',
   name: '社風チェック',
-  url: 'https://shafu-check.net',
+  url: 'https://shafu.taishoku-todoke.net',
   description: '業界別に企業の採用SNSをまとめた転職・就活支援サイト',
-  potentialAction: {
-    '@type': 'SearchAction',
-    target: {
-      '@type': 'EntryPoint',
-      urlTemplate: 'https://shafu-check.net/{industry}',
-    },
-    'query-input': 'required name=industry',
-  },
 };
 
 export default function HomePage() {

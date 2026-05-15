@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   },
   description:
     '転職・就活前に企業の雰囲気を確認。IT・医療・介護・飲食・小売など業界別に企業の公式採用SNS（X・Instagram・TikTok・YouTube）をまとめました。',
-  metadataBase: new URL('https://shafu-check.net'),
+  metadataBase: new URL('https://shafu.taishoku-todoke.net'),
   openGraph: {
     siteName: '社風チェック',
     type: 'website',
